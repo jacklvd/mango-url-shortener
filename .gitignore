@@ -1,0 +1,19 @@
+.env
+.env.*
+!.env.example
+*.db
+__pycache__/
+.venv/
+.DS_Store
+.remember/
+
+# terraform state holds resource ids and must never be committed
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfplan
+tfplan
+
+# assignment brief, not part of the app
+*.pdf

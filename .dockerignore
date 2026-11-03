@@ -1,0 +1,9 @@
+**/node_modules
+**/dist
+**/.venv
+**/*.db
+**/__pycache__
+infra
+.git
+.remember
+*.pdf
